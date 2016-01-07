@@ -98,13 +98,13 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 1. Install [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-2. The IDE to use is [Eclipse for Java Developers](http://www.eclipse.org/downloads/).
+2. The IDE to use is [Eclipse for Java Developers](http://www.eclipse.org/downloads/). [JEE version Recommended](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars1).
 
 3. Skype Account + headset (audio calls)
 
 4. Create your own [GitHub](https://github.com/) account. Follow this [guideline](https://help.github.com/articles/set-up-git) to setup your account. Also you can read further about Git in [Try Git](https://try.github.io/levels/1/challenges/1) or [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
 
-5. Fork this repo https://github.com/juanpablopizarro/java-bootcamp to use as a base to host the project code.
+5. Fork this repo https://github.com/juanpablopizarro/java-bootcamp-2016 to use as a base to host the project code. Read [this](https://help.github.com/articles/fork-a-repo/) for instructions.
 
 → [index](#index)
 
@@ -120,26 +120,27 @@ The boot camp is organized in the following way:
 
 3. One boot camp chat will be created for feedback and technical assistance:
 
-    Bootcamp HTML - ALL
-Every person participating in the bootcamp is present here (students, tutors and PMs). Here is the place to ask for technical assistance!
+    Bootcamp JAVA 2016 - ALL
+Every person participating in the bootcamp is present here (students and tutors). Here is the place to ask for technical assistance!
 
 4. [Team play](http://www.dummies.com/how-to/content/ten-qualities-of-an-effective-team-player.html) is encouraged but the work will be evaluated per person.
 
-5. The instructions will be vague as they generally are in real life projects. You must look for support and guidance from your PM, teammates and tutors.
+5. The instructions will be vague as they generally are in real life projects. You must look for support and guidance from your tutor and teammates.
 
 6. All code and documentation must be in English.
 
-7. Code must adhere to this [eclipse code formatter](https://github.com/juanpablopizarro/java-bootcamp/blob/master/formatter.xml).
+7. Code must adhere to this [eclipse code formatter](https://github.com/juanpablopizarro/java-bootcamp-2016/blob/master/formatter.xml). See importing instructions in this [link](http://www.avajava.com/tutorials/lessons/how-do-i-share-my-code-formatting-settings-with-another-user.html?page=2).
 
 → [index](#index)
 
 ###Proposed Test Applications
 
-The test application will consist in a functional shopping cart (just REST api). The minimum features to be completed are:
+The test application will consist in a REST API for a functional shopping cart. The minimum features to be completed are:
 
   - User registration and login.
+  - List products.
   - Buy products.
-  - Save Cart.
+  - Save cart before buy.
   - Find products by category and name.
 
 
@@ -161,9 +162,7 @@ You will commit all your code on a daily basis, when you finish your practice.
 
 ### Introduction
 
-  - [JVM - I](http://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=392:la-maquina-virtual-java-jvm-o-java-virtual-machine-compilador-e-interprete-bytecode-cu00611b&catid=68:curso-aprender-programacion-java-desde-cero&Itemid=188)
-  - [JVM - II](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
-
+  - [JVM](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html#t1s1). See: "Java Technology and the JVM" and "Describing Garbage Collection"
 
 ####Topic 0: Introduction to Object Oriented Programming Concepts (1 day)####
 
@@ -171,97 +170,31 @@ You will commit all your code on a daily basis, when you finish your practice.
 
 1. Beginners: Java Concepts [basic tutorial](http://docs.oracle.com/javase/tutorial/java/concepts/) (in case you need it!)
 
-2. Beginners: Have fun with [Introduction to Java Programming](http://www.ntu.edu.sg/home/ehchua/programming/java/J1a_Introduction.html). 
+2. Beginners: Have fun with [Introduction to Java Programming](http://www.ibm.com/developerworks/java/tutorials/j-introtojava1/). Do as much you can.
 
-3. Explore [Design Patterns](http://www.avajava.com/tutorials/categories/design-patterns)
+3. Explore [Design Patterns](http://www.avajava.com/tutorials/categories/design-patterns). Minimum scope: singleton, factory, abstract factory, strategy, template method, proxy, decorator and builder.
 
 #####Extra documentation:#####
 
 * [Design Patterns Card](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
 
-* [Design Patterns CD](http://www.saeedsh.com/resources/Design%20Patterns.pdf)
 
 #####Practice:#####
 
-1. [OOP Exercises](http://www.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html)
-2. Design a building like a house and provide a builder to build it.
-3. Design a hospital and provide classes to build it (builder, factories, etc).
+1. Create a singleton example for a database connection.
+2. Create a abstract factory example for diferent type of SQL connections. See [this](http://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm) example 
+3. Create a proxy example for database accesor clases.
+4. Create a builder example for database connection.
 
 #####Key Points:#####
 
-2,3
+3
 
 #####Commit:#####
 
 Commit your practice code.
 
 → [index](#index)
-
-
-####Topic 1: Design Patterns (3 days)####
-
-#####Reading:#####
-1. [Design Patterns CD](http://www.saeedsh.com/resources/Design%20Patterns.pdf)
-
-2. Explore [Design Patterns](http://www.avajava.com/tutorials/categories/design-patterns)
-
-#####Extra documentation:#####
-
-* [Design Patterns Card](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
-
-* [Refactoring to Patterns Catalog](http://www.industriallogic.com/xp/refactoring/catalog.html)
-
-#####Practice:#####
-
-1. Create a ShoppingCart where a user can buy different items and then decide how to pay them:
- 
-     * by Credit Card: where a Name and a Credit Number is required.
-
-     * by Paypal: where an email and a password is needed.
-
-     * Cash: no information is required.
-
-2. Add the following discount depending on the payment type
-
-     * 10% by Credit Card.
-
-     * The cheapest item is for free when the user pay by Paypal.
-
-     * 90% of the most expensive item is free if the user pays by Cash.
-
-3. Create a counter to provide unique sequential numbers and use it to set an identification to each payment transaction.
-
-4. Add functionality to display information about the list of items. The item should be displayed as:
-
-     * Item Name ....... $ price
-
-5. Add an offer that includes other individual items or other offers. Take into account that when an offer is displayed, it should say:
-
-
-     * Offer Name ....... $ price
-
-       - Item Name ...... $ price
-
-6. Add a mailist List where the market manager is notified when:
-    
-     * A new item/offer is added
-
-     * A price is changed
-
-     * A new transaction was made
-
-7. Audio Player: Modelate an application for listening music. You can play, stop and pause tracks.
-
-#####Key Points:#####
-
-1, 2, 3, 4, 5, 6, 7
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#index)
-
 
 ####Topic 2: Maven (1 day)####
 
@@ -286,7 +219,7 @@ Commit your practice code.
    - Create, compile, test, and install the Maven project created on the previous point. To prove that this program works, run it from the command line.
 3. Customizing a Maven Project
    Expand the project created on point 2. The idea is to start playing with adding some dependencies, adding some source code, and customizing the project to suit specific needs. 
-4. A Simple Web Application  
+4. A Simple Java Application  
 5. A Multi-module Project.
    Create a multi-module project that combines work done on previous points (2 and 5). The idea when completing this point is to be able to use Maven to develop complex, multi-module projects.
 
