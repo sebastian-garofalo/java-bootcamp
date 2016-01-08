@@ -328,7 +328,9 @@ Commit your practice code.
 
 2. [Jdbc basis](http://www.vogella.com/tutorials/MySQLJava/article.html#jdbc)
 
-3. [Optimizaciones en MySql](http://www.arsys.info/programacion/bases-de-datos/como-optimizar-bases-de-datos-mysql/)
+#####Extra documentation:#####
+
+1. [Optimizaciones en MySql](http://www.arsys.info/programacion/bases-de-datos/como-optimizar-bases-de-datos-mysql/)
 
 
 #####Practice:#####
