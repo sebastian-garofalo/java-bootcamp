@@ -386,6 +386,8 @@ Commit your practice code.
 2. [Quick development guide](https://spring.io/guides/gs/rest-service/)
 
 3. [Spring boot - rest services guide](http://spring.io/guides/tutorials/bookmarks/)
+
+4. [REST API documentation](http://swagger.io/getting-started/)
   
 #####Practice:#####
 
@@ -470,10 +472,10 @@ Commit your practice code.
 Create a functional shopping cart (just REST api). The minimum features to be completed are:
 
   - User registration and login.
-  - Buy products.
-  - Save Cart.
   - Find products by category and name.
+  - Save Cart.
+  - Buy products.
 
-
+The solution must use MongoDB or MySql as repository as well as Spring Boot and swagger for REST documentation.
 
 Thanks for reading!
