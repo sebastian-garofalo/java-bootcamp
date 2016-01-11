@@ -37,21 +37,19 @@ exercises**
 
     * [Topic 0: Introduction to Object Oriented Programming Concepts (OOP)](#topic-0-introduction-to-object-oriented-programming-concepts-1-day)
 
-    * [Topic 1: Design Patterns](#topic-1-design-patterns-3-days)
+    * [Topic 1: Maven](#topic-1-maven-1-day)
 
-    * [Topic 2: Maven](#topic-2-maven-1-day)
+    * [Topic 2: Test Driven Development](#topic-3-test-driven-development-2-day)
 
-    * [Topic 3: Test Driven Development](#topic-3-test-driven-development-2-day)
+    * [Topic 3: Services](#topic-4-services-3-days)
 
-    * [Topic 4: Services](#topic-4-services-3-days)
+    * [Topic 4: SQL - MySql](#topic-5-sql---mysql-1-day)
 
-    * [Topic 5: SQL - MySql](#topic-5-sql---mysql-1-day)
+    * [Topic 5: Spring Core & REST](#topic-6-spring-core--rest-3-day)
 
-    * [Topic 6: Spring Core & REST](#topic-6-spring-core--rest-3-day)
-
-    * [Topic 7: Hibernate](#topic-7-orm-1-day)
+    * [Topic 6: Hibernate](#topic-7-orm-1-day)
   
-    * [Topic 8: Spring Data & MongoDB](#topic-8-spring-data--mongodb-2-day)
+    * [Topic 7: Spring Data & MongoDB](#topic-8-spring-data--mongodb-2-day)
 
 10. [Your First Project Starts Now!](#your-first-project-starts-now)
 
@@ -139,9 +137,9 @@ The test application will consist in a REST API for a functional shopping cart. 
 
   - User registration and login.
   - List products.
-  - Buy products.
-  - Save cart before buy.
   - Find products by category and name.
+  - Save cart before buy.
+  - Buy products.
 
 
 ###Learning Days###
@@ -164,7 +162,7 @@ You will commit all your code on a daily basis, when you finish your practice.
 
   - [JVM](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html#t1s1). See: "Java Technology and the JVM" and "Describing Garbage Collection"
 
-####Topic 0: Introduction to Object Oriented Programming Concepts (1 day)####
+####Topic 0: Introduction to Object Oriented Programming Concepts (2 day)####
 
 #####Reading:#####
 
@@ -196,7 +194,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 2: Maven (1 day)####
+####Topic 1: Maven (1 day)####
 
 #####Reading:#####
 1. [What is Maven?](http://maven.apache.org/what-is-maven.html)
