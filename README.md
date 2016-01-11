@@ -378,16 +378,14 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 6: Spring Core & REST (3 day)####
+####Topic 5: Spring Core & REST (3 day)####
 
 #####Reading:#####
-1. [Quick guide](https://spring.io/guides/gs/rest-service/)
+1. [Introduction to REST](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
 
-2. [REST I](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
+2. [Quick development guide](https://spring.io/guides/gs/rest-service/)
 
-3. [REST II](http://martinfowler.com/articles/richardsonMaturityModel.html)
-
-4. [Spring boot - rest services guide](http://spring.io/guides/tutorials/bookmarks/)
+3. [Spring boot - rest services guide](http://spring.io/guides/tutorials/bookmarks/)
   
 #####Practice:#####
 
