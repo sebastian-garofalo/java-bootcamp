@@ -39,17 +39,17 @@ exercises**
 
     * [Topic 1: Maven](#topic-1-maven-1-day)
 
-    * [Topic 2: Test Driven Development](#topic-3-test-driven-development-2-days)
+    * [Topic 2: Test Driven Development](#topic-2-test-driven-development-3-days)
 
-    * [Topic 3: Services](#topic-4-services-3-days)
+    * [Topic 3: Services](#topic-3-services-3-days)
 
-    * [Topic 4: SQL - MySql](#topic-5-sql---mysql-1-day)
+    * [Topic 4: SQL - MySql](#topic-4-sql---mysql-1-day)
 
-    * [Topic 5: Spring Core & REST](#topic-6-spring-core--rest-3-day)
+    * [Topic 5: Spring Core & REST](#topic-5-spring-core--rest-3-days)
 
-    * [Topic 6: Hibernate](#topic-7-orm-1-day)
+    * [Topic 6: Hibernate](#topic-6-orm-1-day)
   
-    * [Topic 7: Spring Data & MongoDB](#topic-8-spring-data--mongodb-2-day)
+    * [Topic 7: Spring Data & MongoDB](#topic-7-spring-data--mongodb-3-days)
 
 10. [Your First Project Starts Now!](#your-first-project-starts-now)
 
@@ -232,7 +232,7 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 3: Test Driven Development (2 day)####
+####Topic 2: Test Driven Development (3 days)####
 
 #####Reading:#####
 1. Watch the following videos:
@@ -287,7 +287,7 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 4: Services (3 days)####
+####Topic 3: Services (3 days)####
 
 #####Reading:#####
 1. [How to create services in Java](http://www.makinggoodsoftware.com/2009/11/17/how-to-create-services-in-java/)
@@ -319,7 +319,7 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 5: SQL - MySql (1 day)####
+####Topic 4: SQL - MySql (2 day)####
 
 #####Reading:#####
 1. [MySql basis](http://www.vogella.com/tutorials/MySQL/article.html)
@@ -411,7 +411,7 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 7: ORM (1 day)####
+####Topic 6: ORM (1 day)####
 
 #####Reading:#####
 1. [Spring ORM integration](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/orm.html)
@@ -420,8 +420,8 @@ Commit your practice code.
 
 #####Practice:#####
 
-1. Configure Spring ORM to connect to the DB created on Topic 5.
-2. Implement JPA objects for the entities you created on Topic 5.
+1. Configure Spring ORM to connect to the DB created on Topic 4.
+2. Implement JPA objects for the entities you created on Topic 4.
 3. Create one or more DAO or repository with methods to:
     - Store a student, teacher and course.
     - Fetch all students, fetch all teachers, fetch all courses.
@@ -438,7 +438,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 8: Spring Data & MongoDB (2 day)####
+####Topic 7: Spring Data & MongoDB (3 day)####
 
 #####Reading:#####
 1. [SQL to MongoDB Mapping Chart](http://docs.mongodb.org/manual/reference/sql-comparison)
