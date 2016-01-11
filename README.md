@@ -35,11 +35,11 @@ exercises**
 
 9. [Learning Days](#learning-days)
 
-    * [Topic 0: Introduction to Object Oriented Programming Concepts (OOP)](#topic-0-introduction-to-object-oriented-programming-concepts-1-day)
+    * [Topic 0: Introduction to Object Oriented Programming Concepts (OOP)](#topic-0-introduction-to-object-oriented-programming-concepts-2-days)
 
     * [Topic 1: Maven](#topic-1-maven-1-day)
 
-    * [Topic 2: Test Driven Development](#topic-3-test-driven-development-2-day)
+    * [Topic 2: Test Driven Development](#topic-3-test-driven-development-2-days)
 
     * [Topic 3: Services](#topic-4-services-3-days)
 
@@ -162,7 +162,7 @@ You will commit all your code on a daily basis, when you finish your practice.
 
   - [JVM](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html#t1s1). See: "Java Technology and the JVM" and "Describing Garbage Collection"
 
-####Topic 0: Introduction to Object Oriented Programming Concepts (2 day)####
+####Topic 0: Introduction to Object Oriented Programming Concepts (2 days)####
 
 #####Reading:#####
 
