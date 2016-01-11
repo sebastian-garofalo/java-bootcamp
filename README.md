@@ -241,9 +241,7 @@ Commit your practice code.
    - [Let's Play TDD #1](https://www.youtube.com/watch?v=f3G7gu1IHws)
    - [Let's Play TDD #2](https://www.youtube.com/watch?v=1-sBRRWBxSg)
 
-2. [Test Driven Development](http://www.jamesshore.com/Agile-Book/test_driven_development.html)
-
-3. Have fun with [Test Driven Development in Java using Eclipse](https://www.youtube.com/watch?v=OluA0uJP9ts). 
+2. Have fun with [Test Driven Development in Java using Eclipse](https://www.youtube.com/watch?v=OluA0uJP9ts). 
 
 #####Practice:#####
 
