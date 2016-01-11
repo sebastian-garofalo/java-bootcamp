@@ -43,7 +43,7 @@ exercises**
 
     * [Topic 3: Services](#topic-3-services-3-days)
 
-    * [Topic 4: SQL - MySql](#topic-4-sql---mysql-1-day)
+    * [Topic 4: SQL - MySql](#topic-4-sql---mysql-2-day)
 
     * [Topic 5: Spring Core & REST](#topic-5-spring-core--rest-3-days)
 
@@ -378,7 +378,7 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 5: Spring Core & REST (3 day)####
+####Topic 5: Spring Core & REST (3 days)####
 
 #####Reading:#####
 1. [Introduction to REST](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
