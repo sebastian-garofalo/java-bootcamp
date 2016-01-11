@@ -41,7 +41,7 @@ exercises**
 
     * [Topic 2: Test Driven Development](#topic-2-test-driven-development-3-days)
 
-    * [Topic 3: Services](#topic-3-services-3-days)
+    * [Topic 3: Services](#topic-3-services-2-days)
 
     * [Topic 4: SQL - MySql](#topic-4-sql---mysql-2-days)
 
@@ -49,7 +49,7 @@ exercises**
 
     * [Topic 6: Hibernate](#topic-6-orm-1-day)
   
-    * [Topic 7: Spring Data & MongoDB](#topic-7-spring-data--mongodb-3-days)
+    * [Topic 7: Spring Data & MongoDB](#topic-7-spring-data--mongodb-2-days)
 
 10. [Your First Project Starts Now!](#your-first-project-starts-now)
 
@@ -264,16 +264,6 @@ Commit your practice code.
 
 5. American Soundex: This algorithm encodes words using a phonetic algorithm that promotes convergence of similar-sounding words. For more information about algorithm please read [American Soundex](http://en.wikipedia.org/wiki/Soundex#American_Soundex). Create a function to return the proper soundex code.
 
-6. Using TDD techniques such as mocking, faking and stubs, try to develop your own blog software featuring:
-  * Post new entry
-  * Delete existing entry
-  * Update existing entry
-  * Show 10 most recent entries
-  * Tag an entry
-  * Show all tags
-  * Show blog entry with a certain tag
-  * And so on...
-
 #####Key Points:#####
 
 1,2,3,4
@@ -285,7 +275,7 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 3: Services (3 days)####
+####Topic 3: Services (2 days)####
 
 #####Reading:#####
 1. [How to create services in Java](http://www.makinggoodsoftware.com/2009/11/17/how-to-create-services-in-java/)
@@ -326,6 +316,7 @@ Commit your practice code.
 
 
 #####Practice:#####
+Do not solve the practice using JDBC, please just send us the sql scripts.
 
 1. Create a database named 'high-school' and modelate:
  
@@ -431,20 +422,18 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 7: Spring Data & MongoDB (3 days)####
+####Topic 7: Spring Data & MongoDB (2 days)####
 
 #####Reading:#####
-1. [SQL to MongoDB Mapping Chart](http://docs.mongodb.org/manual/reference/sql-comparison)
+1. [Installing MongoDB](http://docs.mongodb.org/manual/installation)
 
-2. [Installing MongoDB](http://docs.mongodb.org/manual/installation)
+2. [Getting Started With MongoDB](http://docs.mongodb.org/manual/tutorial/getting-started/)
 
-3. [Getting Started With MongoDB](http://docs.mongodb.org/manual/tutorial/getting-started/)
+3. [SQL to MongoDB Mapping Chart](http://docs.mongodb.org/manual/reference/sql-comparison)
 
 4. [Java And MongoDB](http://docs.mongodb.org/ecosystem/tutorial/getting-started-with-java-driver)
 
-5. [Spring and Mongo](http://www.mkyong.com/mongodb/spring-data-mongodb-hello-world-example/)
-
-6. [Spring boot and MongoDB](http://docs.mongodb.org/manual/tutorial/getting-started/)
+5. [Spring boot and MongoDB](http://docs.mongodb.org/manual/tutorial/getting-started/)
 
 #####Practice:#####
 
