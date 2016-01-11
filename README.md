@@ -45,11 +45,9 @@ exercises**
 
     * [Topic 4: SQL - MySql](#topic-4-sql---mysql-2-days)
 
-    * [Topic 5: Spring Core & REST](#topic-5-spring-core--rest-3-days)
-
-    * [Topic 6: Hibernate](#topic-6-orm-1-day)
-  
-    * [Topic 7: Spring Data & MongoDB](#topic-7-spring-data--mongodb-2-days)
+    * [Topic 5: NoSQL - MongoDB](#topic-5-nosql---mongodb-2-days)
+    
+    * [Topic 6: Spring Core & REST](#topic-5-spring-core--rest-3-days)
 
 10. [Your First Project Starts Now!](#your-first-project-starts-now)
 
@@ -201,29 +199,19 @@ Commit your practice code.
 
 2. Have fun with [Maven in 5 minutes](http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html). 
 
-3. Explore [Maven build life cycles phases and goals](http://tutorials.jenkov.com/maven/maven-tutorial.html#maven-build-life-cycles-phases-and-goals)
-
-4. [Maven life cycle](http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-project-relationships.html)
-
-5. Maven: [best practices](http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-pom-best-practice.html)
+3. Maven: [best practices](http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-pom-best-practice.html)
 
 #####Practice:#####
 
-(It is assumed that Maven is already installed and working. I think it is not needed as an excercise to install maven locally).
+(It is assumed that Maven is already installed and working).
 
-1. Create a simple Maven project:
-   - Here, the idea is to use the Maven Archetype plugin from the command line. Run the archetype:generate goal, selecting default archetype suggested by pressing "Enter". Create a simple a simple application that takes a name from console and print a greeting using the given name.
-2. Building a Simple Project:
-   - Create, compile, test, and install the Maven project created on the previous point. To prove that this program works, run it from the command line.
-3. Customizing a Maven Project
-   Expand the project created on point 2. The idea is to start playing with adding some dependencies, adding some source code, and customizing the project to suit specific needs. 
-4. A Simple Java Application  
-5. A Multi-module Project.
-   Create a multi-module project that combines work done on previous points (2 and 5). The idea when completing this point is to be able to use Maven to develop complex, multi-module projects.
+1. Create and build a simple Maven project:
+2. Customize the Maven project by adding new dependencies: log4j, junit.
+3. Create a simple unit test under src/test/java and run it. Then skip the unit test by property or by adding the skipping test configuration to your pom.xml file.
 
 #####Key Points:#####
 
-1,4,5
+1,2,3
 
 #####Commit:#####
 
@@ -232,41 +220,26 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 2: Test Driven Development (3 days)####
+####Topic 2: Test Driven Development (2 days)####
 
 #####Reading:#####
-1. Watch the following videos:
-
-   - [Test-driven development tutorial](https://www.youtube.com/watch?v=QCif_-r8eK4)
-   - [Let's Play TDD #1](https://www.youtube.com/watch?v=f3G7gu1IHws)
-   - [Let's Play TDD #2](https://www.youtube.com/watch?v=1-sBRRWBxSg)
-
-2. Have fun with [Test Driven Development in Java using Eclipse](https://www.youtube.com/watch?v=OluA0uJP9ts). 
+1. [Test Driven Development](http://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/)
 
 #####Practice:#####
 
-1. Convert an amount on a check to appropiate text. For example:
-  * 2523.04 --> Two thousand five hundred twenty-three and 04/100 dollars
-
-2. Develop a word-wrapping algorithm, which is given a string and a row-length, returns a list of word-wrapped rows. For example:
-  * If the row-length is 60 and the input string is 30, the result is just the input string
-  * If the row-length is 7 and the input string is "Hello Word!", the result should be: "Hello", "Word!"
-  * If the row-length is 3 and the input string is "a b c d e f", the result should be "a b", "c d", "e f"
-  * If the row-length is 5 and the input string is "Excelent", the result should be "Excel", "ent"
-
-3. Use TDD to create the 'Recent file list' behaviour. Some examples of this behaviour is:
+1. Use TDD to create the 'Recent file list' behaviour. Some examples of this behaviour is:
   * When the program is run for the first time, the list is empty.
   * When a file is opened, it is added to the recent file list.
   * If an opened file already exists in the recent file list, it is bumped to the top, not duplicated in the list.
-  *If the recent file list gets full (typical number of items is 15), the oldest item is removed when a new item is added.
-
-4. Create a Roman Number conversion (both ways, either int to Roman or Roman to int). All rules can be found on wikipedia: [Roman numerals](http://en.wikipedia.org/wiki/Roman_numerals).
-
-5. American Soundex: This algorithm encodes words using a phonetic algorithm that promotes convergence of similar-sounding words. For more information about algorithm please read [American Soundex](http://en.wikipedia.org/wiki/Soundex#American_Soundex). Create a function to return the proper soundex code.
-
+  * If the recent file list gets full (typical number of items is 15), the oldest item is removed when a new item is added.
+2. Using TDD techniques such as mocking, faking and stubs, try to develop your own blog software featuring:
+  * Post new entry
+  * Delete existing entry
+  * Show 10 most recent entries
+ 
 #####Key Points:#####
 
-1,2,3,4
+2
 
 #####Commit:#####
 
@@ -328,19 +301,18 @@ Do not solve the practice using JDBC, please just send us the sql scripts.
    - An student can assist several courses during the same year.
    - A teacher can be assigned to several courses.
    - For each course, each student has 3 partial notes and a final note.
+   - Create all relationship that you think they are required.
 
-2. Create all relationship that you think they are required
-3. Insert information for 3 teachers, 5 courses and 20 students per course
-4. List students and teachers for a given course. The output format should be:
+2. Insert information for 3 teachers, 3 courses and 10 students per course.
+3. List students and teachers for a given course. The output format should be:
 
         Course: <course-name>
         Teacher: <last-name>, <first-name>
         Students:
           <last-name>, <first-name> (ordered by alphabetically by last name)
 
-5. List final course notes for a given student (the input should be the registration number). They should be ordered by highest notes and course name)
-6. Percentage of students that passed/failed a given course.
-7. For a given teacher, list the timeline for each course that he is assigned to (ordered by date), and the course name. The format should be:
+4. Percentage of students that passed/failed a given course.
+5. For a given teacher, list the timeline for each course that he is assigned to (ordered by date), and the course name. The format should be:
 
         Teacher: <last-name>, <first-name>
         Schedule:
@@ -348,17 +320,12 @@ Do not solve the practice using JDBC, please just send us the sql scripts.
           Monday 15:00 - 17:30: <course-name>
           Friday 08:45 - 10:40: <course-name>
 
-8. Identify and Optimize all queries
-9. Create a table for students that have more than 1 partial note with a value less than 7. The table should contain the following information:
-    * Student name
-    * Course name
-    * Average Note
-10. Add a new column to the previous table (assigned teacher) and update it with the proper information.
-11. Delete the oldest teacher (courses assigned to her should be empty).
+6. Identify and Optimize all queries.
+7. Connect to MySQL using Java JDBC and perform the query you have developed in excercise 5.
 
 #####Key Points:#####
 
-1,2,3,4,5,8
+1,2,3,5,7
 
 #####Commit:#####
 
@@ -366,8 +333,36 @@ Commit your practice code.
 
 → [index](#index)
 
+####Topic 5: NoSQL - MongoDB (2 days)####
 
-####Topic 5: Spring Core & REST (3 days)####
+#####Reading:#####
+1. [SQL vs. NoSQL DB](http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/)
+
+2. [Installing MongoDB](http://docs.mongodb.org/manual/installation)
+
+3. [SQL to MongoDB Mapping Chart](http://docs.mongodb.org/manual/reference/sql-comparison)
+
+4. [Morphia to Map Java objects in MongoDB](https://dzone.com/articles/using-morphia-map-java-objects)
+
+
+#####Practice:#####
+
+1. Using the same SQL-MySql data model, map it to the corresponding database, collections and documents.
+2. Fetch all students whose notes in a specific course were greater than 4.
+3. Fetch all courses ordered by name for a given teacher.
+4. Create a new project using Maven and Morphia to map the objects created in 1. Create the necessary DAOs to get same result than 2.
+
+#####Key Points:#####
+
+1,2,4
+
+#####Commit:#####
+
+Commit your practice code.
+
+→ [index](#index)
+
+####Topic 6: Spring Core & REST (3 days)####
 
 #####Reading:#####
 1. [Introduction to REST](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
@@ -393,66 +388,6 @@ Commit your practice code.
 Commit your practice code.
 
 → [index](#index)
-
-
-####Topic 6: ORM (1 day)####
-
-#####Reading:#####
-1. [Spring ORM integration](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/orm.html)
-
-2. Spring Boot and [JPA integration](http://spring.io/guides/gs/accessing-data-jpa/)
-
-#####Practice:#####
-
-1. Configure Spring ORM to connect to the DB created on Topic 4.
-2. Implement JPA objects for the entities you created on Topic 4.
-3. Create one or more DAO or repository with methods to:
-    - Store a student, teacher and course.
-    - Fetch all students, fetch all teachers, fetch all courses.
-4. Create a method to fetch all courses of a given student.
-5. Create a method to fetch all students of a given course.
-
-#####Key Points:#####
-
-1,2,3,4,5
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#index)
-
-####Topic 7: Spring Data & MongoDB (2 days)####
-
-#####Reading:#####
-1. [Installing MongoDB](http://docs.mongodb.org/manual/installation)
-
-2. [Getting Started With MongoDB](http://docs.mongodb.org/manual/tutorial/getting-started/)
-
-3. [SQL to MongoDB Mapping Chart](http://docs.mongodb.org/manual/reference/sql-comparison)
-
-4. [Java And MongoDB](http://docs.mongodb.org/ecosystem/tutorial/getting-started-with-java-driver)
-
-5. [Spring boot and MongoDB](http://docs.mongodb.org/manual/tutorial/getting-started/)
-
-#####Practice:#####
-
-1. Using the same SQL-MySql data model, map it to the corresponding database, collections and documents.
-2. Fetch all students whose notes in a specific course were greater than 4.
-3. Fetch all courses ordered by name for a given teacher.
-4. Add a new field to “courses” collection to identify which courses are finished.
-5. Create a new project using Spring Data for MongoDB framework and translate items 2, 3 and 4.
-
-#####Key Points:#####
-
-1,2,3,5
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#index)
-
 
 ###Your First Project Starts Now!
 
