@@ -456,7 +456,7 @@ Commit your practice code.
 
 ###Your First Project Starts Now!
 
-####Final Project
+####Final Project (2 days)
 Create a functional shopping cart (just REST api). The minimum features to be completed are:
 
   - User registration and login.
