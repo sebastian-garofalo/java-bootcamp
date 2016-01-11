@@ -296,11 +296,9 @@ Commit your practice code.
 
 1. Create a shopping cart API spec
 2. Implement the previous shopping cart using TDD.
-3. Document endpoints
+3. Document services.
 4. Design a UserService for CRUD operations.
 5. Implement and document previous UserService.
-6. Add a uploadPhoto to the UserService
-7. Add friends and likes (photos) to previous UserService.
 
 Note: Do not implement JPA or ORM. Services should return in memory data only.
 
@@ -392,11 +390,12 @@ Commit your practice code.
 #####Practice:#####
 
 1. Expose the shopping cart created in the topic 3.
-2. Create a REST API to create, update and remove meetings. Note that a meeting has attendees, room and a time slot. Attendees and rooms exists in the system and must be retrieved by an endpoint to create the meeting. You must provide the following features: create meetings, query existing ones, cancel and update meetings.
+2. Write the swagger file for point 1.
+3. Create and document with swagger a REST API to register users. The API must provide: add, delete, update and find by name and find by nickname operations. Note that the username must be unique.
 
 #####Key Points:#####
 
-2
+3
 
 #####Commit:#####
 
