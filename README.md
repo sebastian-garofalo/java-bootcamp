@@ -304,9 +304,7 @@ Commit your practice code.
 6. Add a uploadPhoto to the UserService
 7. Add friends and likes (photos) to previous UserService.
 
-Note: you can choose any endpoint documentation standard. As an example you can use the [twitter format](https://dev.twitter.com/rest/reference/get/users/lookup)
-
-Note 2: Do not implement JPA or ORM. Services should return in memory data only.
+Note: Do not implement JPA or ORM. Services should return in memory data only.
 
 #####Key Points:#####
 
@@ -319,7 +317,7 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 4: SQL - MySql (2 day)####
+####Topic 4: SQL - MySql (2 days)####
 
 #####Reading:#####
 1. [MySql basis](http://www.vogella.com/tutorials/MySQL/article.html)
@@ -385,19 +383,17 @@ Commit your practice code.
 ####Topic 6: Spring Core & REST (3 day)####
 
 #####Reading:#####
-1. [Quick guide](http://www.tutorialspoint.com/spring/spring_quick_guide.htm)
+1. [Quick guide](https://spring.io/guides/gs/rest-service/)
 
-2. [Spring boot](http://docs.spring.io/spring-boot/docs/1.2.1.BUILD-SNAPSHOT/reference/htmlsingle/) up to point III (included)
+2. [REST I](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
 
-3. [REST I](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
+3. [REST II](http://martinfowler.com/articles/richardsonMaturityModel.html)
 
-4. [REST II](http://martinfowler.com/articles/richardsonMaturityModel.html)
-
-5. [Spring boot - rest services guide](http://spring.io/guides/tutorials/bookmarks/)
+4. [Spring boot - rest services guide](http://spring.io/guides/tutorials/bookmarks/)
   
 #####Practice:#####
 
-1. Expose the shopping cart created in the topic 4.
+1. Expose the shopping cart created in the topic 3.
 2. Create a REST API to create, update and remove meetings. Note that a meeting has attendees, room and a time slot. Attendees and rooms exists in the system and must be retrieved by an endpoint to create the meeting. You must provide the following features: create meetings, query existing ones, cancel and update meetings.
 
 #####Key Points:#####
@@ -438,7 +434,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 7: Spring Data & MongoDB (3 day)####
+####Topic 7: Spring Data & MongoDB (3 days)####
 
 #####Reading:#####
 1. [SQL to MongoDB Mapping Chart](http://docs.mongodb.org/manual/reference/sql-comparison)
