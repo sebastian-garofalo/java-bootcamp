@@ -1,20 +1,15 @@
-/*
-* @author Braian Varona
-* @version 1.0
-*/
-
 package bootcamp2016.ej1;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class dbConnection {
+public class DBConnection {
 
 	private static Connection connection;
-	private static dbConnection instance = null;
+	private static DBConnection instance = null;
 	
-	private dbConnection() {
+	private DBConnection() {
 		String driver = "...";
 		String url = "...";
 		String user = "user name";
@@ -27,9 +22,9 @@ public class dbConnection {
 		}
 	}
 	
-	public static dbConnection getInstance() {
+	public static DBConnection getInstance() {
 		if (instance == null)
-			instance = new dbConnection();
+			instance = new DBConnection();
 		return instance;
 	}
 	
