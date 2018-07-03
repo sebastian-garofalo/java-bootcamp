@@ -14,6 +14,8 @@ public class Customer {
 		connection.setPass("pepito");
 		System.out.println(connection.connect());
 		
+		System.out.println(connection.query("Give me query"));
+		
 		System.out.println(connection.closeSession());
 	}
 
