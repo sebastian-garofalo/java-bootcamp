@@ -91,7 +91,8 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 1. Install [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-2. The IDE to use is [Eclipse for Java Developers](http://www.eclipse.org/downloads/). [JEE version Recommended](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars1).
+2. The IDE to use is [Eclipse for Java Developers](http://www.eclipse.org/downloads/). [
+Eclipse IDE for Java EE Developers Recommended](http://www.eclipse.org/downloads/packages/).
 
 3. Slack JavaBootcampTandil account + headset (audio calls)
 
@@ -113,7 +114,7 @@ The boot camp is organized in the following way:
 
 3. One boot camp chat will be created for feedback and technical assistance:
 
-    Bootcamp JAVA 2016 - ALL
+    Bootcamp JAVA - ALL
 Every person participating in the bootcamp is present here (students and tutors). Here is the place to ask for technical assistance!
 
 4. [Team play](http://www.dummies.com/how-to/content/ten-qualities-of-an-effective-team-player.html) is encouraged but the work will be evaluated per person.
@@ -122,7 +123,7 @@ Every person participating in the bootcamp is present here (students and tutors)
 
 6. All code and documentation must be in English.
 
-7. Code must adhere to this [eclipse code formatter](https://github.com/juanpablopizarro/java-bootcamp-2016/blob/master/formatter.xml). See importing instructions in this [link](http://www.avajava.com/tutorials/lessons/how-do-i-share-my-code-formatting-settings-with-another-user.html?page=2).
+7. Code must adhere to this [eclipse code formatter](https://github.com//sebastian-garofalo/java-bootcamp/blob/master/formatter.xml). See importing instructions in this [link](http://www.avajava.com/tutorials/lessons/how-do-i-share-my-code-formatting-settings-with-another-user.html?page=2).
 
 → [index](#index)
 
@@ -248,7 +249,7 @@ Commit your practice code.
 # Topic 3: Services (2 days)
 
 ## Reading:
-1. [How to create services in Java](http://www.makinggoodsoftware.com/2009/11/17/how-to-create-services-in-java/)
+1. [How to create services in Java](https://web.archive.org/web/20160414080344/http://www.makinggoodsoftware.com/2009/11/17/how-to-create-services-in-java/)
 
 2. [How to design a good API and why it matters](https://www.youtube.com/watch?v=aAb7hSCtvGw)
 
