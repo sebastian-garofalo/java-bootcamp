@@ -2,6 +2,7 @@ package exercise2_abstractFactory;
 
 public class FactoryProducer {
 	
+
 	 public static AbstractFactory getFactory(String choice){
 		   
 	      if(choice.equalsIgnoreCase("Microsoft")){
@@ -12,4 +13,25 @@ public class FactoryProducer {
 	      }
 	      return null;
 	   }
+	 
+		public static void main(String[] args) {
+			
+			Connection connect;
+			
+			AbstractFactory factory = getFactory("Microsoft");
+			connect = factory.getMicrosoftSQLServerConnection("ODBC");
+			connect.Connection();
+			connect = factory.getMicrosoftSQLServerConnection("OLEDB");
+			connect.Connection();
+			
+			factory = getFactory("Oracle");
+			connect = factory.getOracleConnection("ODBC");
+			connect.Connection();
+			connect = factory.getOracleConnection("OLEDB");
+			connect.Connection();
+		
+			
+		}	
+			
+		
 }
