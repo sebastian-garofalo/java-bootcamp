@@ -4,7 +4,7 @@ public class MicrosoftODBC implements MicrosoftSQLServerConnection{
 	
 	@Override
 	public void Connection() {
-		// TODO Auto-generated method stub
+		System.out.println("Microsoft ODBC connection");
 		
 	}
 

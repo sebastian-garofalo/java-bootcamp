@@ -4,8 +4,7 @@ public class OracleOLEDB implements OracleConnection{
 
 	@Override
 	public void Connection() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Oracle OLEDB connection");
 	}
 
 }

@@ -1,6 +1,6 @@
 package exercise2_abstractFactory;
 
-public interface OracleConnection extends Connection{
+public interface Connection {
 	
 	public void Connection();
 }

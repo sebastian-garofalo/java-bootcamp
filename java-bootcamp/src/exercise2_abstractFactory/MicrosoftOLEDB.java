@@ -4,8 +4,7 @@ public class MicrosoftOLEDB implements MicrosoftSQLServerConnection{
 
 	@Override
 	public void Connection() {
-		// TODO Auto-generated method stub
-	
+		System.out.println("Microsoft OLEDB connection");
 	}
 
 
