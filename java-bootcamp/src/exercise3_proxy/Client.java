@@ -1,6 +1,6 @@
 package exercise3_proxy;
 
-public class Customer {
+public class Client {
 
 	public static void main(String[] args) {
 		
