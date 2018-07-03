@@ -93,11 +93,11 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 2. The IDE to use is [Eclipse for Java Developers](http://www.eclipse.org/downloads/). [JEE version Recommended](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars1).
 
-3. Skype Account + headset (audio calls)
+3. Slack JavaBootcampTandil account + headset (audio calls)
 
 4. Create your own [GitHub](https://github.com/) account. Follow this [guideline](https://help.github.com/articles/set-up-git) to setup your account. Also you can read further about Git in [Try Git](https://try.github.io/levels/1/challenges/1) or [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
 
-5. Fork this repo https://github.com/juanpablopizarro/java-bootcamp-2016 to use as a base to host the project code. Read [this](https://help.github.com/articles/fork-a-repo/) for instructions.
+5. Fork this repo https://github.com/sebastian-garofalo/java-bootcamp/ to use as a base to host the project code. Read [this](https://help.github.com/articles/fork-a-repo/) for instructions.
 
 → [index](#index)
 
