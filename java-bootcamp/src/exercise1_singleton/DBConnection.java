@@ -1,7 +1,7 @@
 package exercise1_singleton;
 
 public class DBConnection {
-	//SINGLETON
+	//SINGLETON 
 	private static DBConnection connection = new DBConnection();
 	
 	private DBConnection() {
