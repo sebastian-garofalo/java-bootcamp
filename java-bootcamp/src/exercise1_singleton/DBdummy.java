@@ -2,17 +2,27 @@ package exercise1_singleton;
 
 public class DBdummy {
 	
+	public static boolean connection = false;
+	
 	public static boolean login(String user, String pass) {
-		if(user.equals("pepito")&(pass.equals("pepito")))
+		
+		if (!connection)
+		if(user.equals("pepito")&(pass.equals("pepito"))) {
+			connection = true;
 			return true;
+		}
 		return false;
 	}
 	
-	public boolean closeSesion() {
-		return true;
+	public static boolean closeSession() {
+		if(connection) {
+			connection = false;
+			return true;
+		}
+		return false;
 	}
 
-	public String query(String request) {
-		return "this is a query";
+	public static String query(String request) {
+		return "This is a query";
 	}
 }
