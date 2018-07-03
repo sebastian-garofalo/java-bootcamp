@@ -2,13 +2,17 @@ package exercise1_singleton;
 
 public class DBConnection {
 	//SINGLETON 
-	private static DBConnection connection = new DBConnection();
+	private static DBConnection connection = null;
 	
 	private DBConnection() {
 		
 	}
 	
 	public static DBConnection getInstance() {
+		
+		if (connection == null){
+			connection = new DBConnection();
+		}
 		return connection;
 	}
 	
