@@ -1,5 +1,7 @@
 package exercise1_singleton;
 
+import DB.DBdummy;
+
 public class DBConnection {
 	//SINGLETON 
 	private static DBConnection connection = null;

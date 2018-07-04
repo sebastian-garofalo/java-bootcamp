@@ -1,6 +1,6 @@
 package exercise3_proxy;
 
-import exercise1_singleton.DBdummy;
+import DB.DBdummy;
 
 public class Proxy implements DBInterface{
 	
