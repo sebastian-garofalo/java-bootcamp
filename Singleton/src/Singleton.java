@@ -8,12 +8,12 @@ public class Singleton {
     private String password;
  
     // Constructor
-    private Singleton(){
+ private Singleton(){
  
- String host = "jdbc:mysql://localhost:3306/test";
- String driver = "com.mysql.jdbc.Driver";
- String user = "user";
- String password = "password";
+	 String host = "jdbc:mysql://localhost:3306/test";
+	 String driver = "com.mysql.jdbc.Driver";
+	 String user = "user";
+	 String password = "password";
   
  try{
      Class.forName(driver);
