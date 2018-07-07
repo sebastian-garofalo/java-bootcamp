@@ -34,4 +34,3 @@ public class Singleton {
  return conn;
     } // End getConnection
 }
-}
