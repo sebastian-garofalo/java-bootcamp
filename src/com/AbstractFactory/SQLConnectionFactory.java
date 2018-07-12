@@ -11,9 +11,4 @@ public class SQLConnectionFactory {
 			return new PostgreSQL();
 		return null;
 	}
-	
-	public static void main(String[] args) {
-		SQLConnectionFactory c= new SQLConnectionFactory();
-		c.getConnection("postgresql").connect();
-	}
 }
