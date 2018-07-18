@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import com.filelist.FileList;
 
-public class TestFileList {
+public class FileListTest {
 
 	public static int listSize = 15;
 	

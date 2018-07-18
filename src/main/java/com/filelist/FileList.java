@@ -39,7 +39,6 @@ public class FileList {
 		}
 		return false;
 	}
-	
 	public String toString() {
 		String concat = "";
 		for (String f : getRecentFileList()) {
