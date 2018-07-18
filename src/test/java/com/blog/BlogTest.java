@@ -13,28 +13,28 @@ public class BlogTest {
 	@Test
 	public void getPostMock() {
 		Post post = null; 
-        IBlog blogMock = mock(IBlog.class);
-        when(blogMock.getPost(NAMEP)).thenReturn(post);
-        assertEquals(blogMock.getPost(NAMEP), post);
+		IBlog blogMock = mock(IBlog.class);
+		when(blogMock.getPost(NAMEP)).thenReturn(post);
+		assertEquals(blogMock.getPost(NAMEP), post);
 	}
 	@Test
 	public void emptyBlogMock() {
 		ArrayList<Post> posts = new ArrayList();
-        IBlog blogMock = mock(IBlog.class);
-        when(blogMock.getAllPosts()).thenReturn(posts);
-        assertTrue(blogMock.getAllPosts().isEmpty());
+		IBlog blogMock = mock(IBlog.class);
+		when(blogMock.getAllPosts()).thenReturn(posts);
+		assertTrue(blogMock.getAllPosts().isEmpty());
 	}
 	@Test
 	public void getNameBlogUsingMock() {
-        IBlog blogMock = mock(IBlog.class);
-        when(blogMock.getName()).thenReturn(NAMEB);
-        assertEquals(blogMock.getName(), NAMEB);
+		IBlog blogMock = mock(IBlog.class);
+		when(blogMock.getName()).thenReturn(NAMEB);
+		assertEquals(blogMock.getName(), NAMEB);
 	}
 	@Test
 	public void getNameBlogUsingStub() {
 		IBlog blogMockD,blogMock = mock(IBlog.class);
-        stub(blogMock.getName()).toReturn(NAMEB);
-        assertEquals(blogMock.getName(), NAMEB);
+		stub(blogMock.getName()).toReturn(NAMEB);
+		assertEquals(blogMock.getName(), NAMEB);
 	}
 	@Test
 	public void getNameFakeBlogTest() {
