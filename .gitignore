@@ -10,3 +10,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+*.MF
+.project
+.classpath
+*.prefs
+*.properties
+target/classes/META-INF/maven/com.maven/java-bootcamp-topic_2/pom.xml
